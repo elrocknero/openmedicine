@@ -9,6 +9,9 @@
 !.yarn/plugins
 !.yarn/releases
 !.yarn/versions
+# Supabase (ignorar todo excepto scripts SQL)
+/supabase/*
+!/supabase/*.sql
 
 # testing
 /coverage
